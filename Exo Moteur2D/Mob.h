@@ -6,6 +6,10 @@
 
 class Mob : public Entity, Alive, AMovable
 {
+private:
+
+	Vector2 pos = GetPosition();
+
 public:
 
 	Mob(float x, float y, float maxHP, float currentHP, Vector2 dir, float speed) : Entity(x, y), Alive(maxHP, currentHP), AMovable(x, y, speed) {}

@@ -130,6 +130,7 @@
     <ClCompile Include="IAttacker.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mob.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="StaticObject.cpp" />
     <ClCompile Include="Vector2.cpp" />
   </ItemGroup>
@@ -140,6 +141,7 @@
     <ClInclude Include="Entity.h" />
     <ClInclude Include="IAttacker.h" />
     <ClInclude Include="Mob.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="StaticObject.h" />
     <ClInclude Include="Vector2.h" />
   </ItemGroup>
