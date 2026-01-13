@@ -18,6 +18,7 @@ void Mob::TakeDamage(float damage)
 
 }
 
+
 void Mob::Move()
 {
 	AMovable::Move();
