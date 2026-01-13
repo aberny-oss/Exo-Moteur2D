@@ -17,5 +17,7 @@ public:
 	virtual void SetSpeed(float speed);
 
 	virtual void Move() = 0;
+
+	Vector2 GetDirection();
 };
 

@@ -9,7 +9,7 @@ void BreakableObject::Created()
 
 void BreakableObject::TakeDamage(float damage)
 {
-	m_currentHP -= damage;
+	Alive::TakeDamage(damage);
 	if (m_currentHP <= 0)
 	{
 		std::cout << "Breakable Object just broke" << std::endl;

@@ -20,3 +20,8 @@ void AMovable::SetSpeed(float speed)
 	m_speed = speed;
 
 }
+
+Vector2 AMovable::GetDirection()
+{
+	return m_dir;
+}
